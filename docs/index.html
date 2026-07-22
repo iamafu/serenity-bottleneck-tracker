@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>Serenity Bottleneck Tracker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    max-width: 980px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5;
+  }
+  h1 { font-size: 1.35rem; margin-bottom: .25rem; }
+  .meta { color: #888; font-size: .85rem; margin-bottom: 1.25rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th, td { padding: .45rem .6rem; text-align: right; border-bottom: 1px solid rgba(128,128,128,.25); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th { cursor: pointer; user-select: none; position: sticky; top: 0; background: Canvas; font-weight: 600; }
+  th:hover { color: #4a90d9; }
+  tr:hover td { background: rgba(128,128,128,.08); }
+  .up { color: #2e7d32; }
+  .down { color: #c0392b; }
+  .disclaimer { margin-top: 2rem; font-size: .78rem; color: #888; }
+  .disclaimer a { color: inherit; }
+  .err { color: #999; font-style: italic; }
+</style>
+</head>
+<body>
+  <h1>Serenity (@aleabitoreddit) Bottleneck Tracker</h1>
+  <div class="meta" id="meta">載入中…</div>
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th data-k="ticker">Ticker</th>
+        <th data-k="mentions">提及次數</th>
+        <th data-k="first_seen">首次出現</th>
+        <th data-k="last_seen">最近出現</th>
+        <th data-k="last">最新價</th>
+        <th data-k="ret_1m_pct">1M %</th>
+        <th data-k="ret_3m_pct">3M %</th>
+        <th data-k="stage">Stage</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div class="disclaimer">
+    資料來源：<a href="https://github.com/yan-labs/serenity-aleabitoreddit" target="_blank">yan-labs/serenity-aleabitoreddit</a>
+    公開推文提及存檔 + yfinance / EODHD 報價，每日由 GitHub Actions 自動更新。
+    僅供研究教育用途，非投資建議，與 Serenity / @aleabitoreddit 本人無官方關聯，其自報績效未經驗證。
+    自動化架構參考
+    <a href="https://iamafu.github.io/tw-us-elliott-wave/" target="_blank">tw-us-elliott-wave</a>。
+    原始碼：<a href="https://github.com/iamafu/serenity-bottleneck-tracker" target="_blank">iamafu/serenity-bottleneck-tracker</a>
+  </div>
+
+<script>
+let rows = [];
+let sortKey = 'mentions', sortDir = -1;
+
+fetch('data/tickers.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    document.getElementById('meta').textContent =
+      `最後更新：${d.generated_at}　追蹤 ${d.tickers.length} 檔（依提及次數排序，點欄名可重新排序）`;
+    rows = d.tickers.map(t => ({
+      ticker: t.ticker,
+      mentions: t.mentions,
+      first_seen: t.first_seen,
+      last_seen: t.last_seen,
+      last: t.price && t.price.last != null ? t.price.last : null,
+      ret_1m_pct: t.price ? t.price.ret_1m_pct : null,
+      ret_3m_pct: t.price ? t.price.ret_3m_pct : null,
+      stage: t.price ? (t.price.stage || (t.price.error ? '無資料' : '-')) : '-',
+    }));
+    render();
+  })
+  .catch(() => {
+    document.getElementById('meta').textContent = '資料載入失敗，稍後再試。';
+  });
+
+function fmtPct(v) {
+  if (v == null) return '-';
+  const cls = v > 0 ? 'up' : v < 0 ? 'down' : '';
+  return `<span class="${cls}">${v > 0 ? '+' : ''}${v}%</span>`;
+}
+
+function render() {
+  rows.sort((a, b) => {
+    const av = a[sortKey], bv = b[sortKey];
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    if (av > bv) return sortDir;
+    if (av < bv) return -sortDir;
+    return 0;
+  });
+  const tbody = document.querySelector('#tbl tbody');
+  tbody.innerHTML = rows.map(r => `
+    <tr>
+      <td><strong>${r.ticker}</strong></td>
+      <td>${r.mentions}</td>
+      <td>${r.first_seen}</td>
+      <td>${r.last_seen}</td>
+      <td>${r.last ?? '<span class="err">-</span>'}</td>
+      <td>${fmtPct(r.ret_1m_pct)}</td>
+      <td>${fmtPct(r.ret_3m_pct)}</td>
+      <td title="${r.stage}">${r.stage}</td>
+    </tr>`).join('');
+}
+
+document.querySelectorAll('#tbl th').forEach(th => {
+  th.addEventListener('click', () => {
+    const k = th.dataset.k;
+    sortDir = (sortKey === k) ? -sortDir : -1;
+    sortKey = k;
+    render();
+  });
+});
+</script>
+</body>
+</html>

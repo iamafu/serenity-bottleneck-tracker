@@ -1,0 +1,37 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # ~06:00 台北時間，美股收盤後
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: python scripts/build.py
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+
+      - name: Commit data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: daily tracker update $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "no changes"
+          fi
