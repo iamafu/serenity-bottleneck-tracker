@@ -5,110 +5,218 @@
 <title>Serenity Bottleneck Tracker</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
-    max-width: 980px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5;
+  :root{
+    --bg:#F6F5F1; --card:#FFFFFF; --ink:#1B2A3A; --sub:#6E7A87; --muted:#9AA4AD;
+    --up:#1F6F5C; --up-bg:#E4F0EC; --down:#A24936; --down-bg:#F5E7E1;
+    --warn:#92620E; --warn-bg:#F3E7D2; --chip:#EFEDE6; --line:rgba(27,42,58,0.09);
+    --accent:#1F6F5C;
   }
-  h1 { font-size: 1.35rem; margin-bottom: .25rem; }
-  .meta { color: #888; font-size: .85rem; margin-bottom: 1.25rem; }
-  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
-  th, td { padding: .45rem .6rem; text-align: right; border-bottom: 1px solid rgba(128,128,128,.25); white-space: nowrap; }
-  th:first-child, td:first-child { text-align: left; }
-  th { cursor: pointer; user-select: none; position: sticky; top: 0; background: Canvas; font-weight: 600; }
-  th:hover { color: #4a90d9; }
-  tr:hover td { background: rgba(128,128,128,.08); }
-  .up { color: #2e7d32; }
-  .down { color: #c0392b; }
-  .disclaimer { margin-top: 2rem; font-size: .78rem; color: #888; }
-  .disclaimer a { color: inherit; }
-  .err { color: #999; font-style: italic; }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#171D22; --card:#1F262C; --ink:#E7E9EA; --sub:#8B96A0; --muted:#5D6670;
+      --up:#4FBFA0; --up-bg:#20342E; --down:#D97757; --down-bg:#3A2620;
+      --warn:#E0B15C; --warn-bg:#3A2F1A; --chip:#283036; --line:rgba(231,233,234,0.09);
+      --accent:#4FBFA0;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#171D22; --card:#1F262C; --ink:#E7E9EA; --sub:#8B96A0; --muted:#5D6670;
+    --up:#4FBFA0; --up-bg:#20342E; --down:#D97757; --down-bg:#3A2620;
+    --warn:#E0B15C; --warn-bg:#3A2F1A; --chip:#283036; --line:rgba(231,233,234,0.09);
+    --accent:#4FBFA0;
+  }
+  :root[data-theme="light"]{
+    --bg:#F6F5F1; --card:#FFFFFF; --ink:#1B2A3A; --sub:#6E7A87; --muted:#9AA4AD;
+    --up:#1F6F5C; --up-bg:#E4F0EC; --down:#A24936; --down-bg:#F5E7E1;
+    --warn:#92620E; --warn-bg:#F3E7D2; --chip:#EFEDE6; --line:rgba(27,42,58,0.09);
+    --accent:#1F6F5C;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    background:var(--bg); color:var(--ink); margin:0;
+    font-family:-apple-system,"Segoe UI","PingFang TC","Microsoft JhengHei",sans-serif;
+  }
+  .wrap{ max-width:980px; margin:0 auto; padding:2rem 1.25rem 3rem; }
+
+  .hd{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:4px; }
+  .hd h1{ font-size:1.3rem; font-weight:700; margin:0; letter-spacing:-.01em; }
+  .hd .sub{ color:var(--sub); font-size:.82rem; margin-top:4px; }
+  .theme-btn{
+    background:var(--chip); border:none; border-radius:10px; width:36px; height:36px;
+    display:flex; align-items:center; justify-content:center; cursor:pointer; flex:none;
+  }
+  .theme-btn svg{ width:16px; height:16px; stroke:var(--ink); fill:none; stroke-width:2; stroke-linecap:round; }
+  .theme-btn .ico-sun{ display:none; } .theme-btn .ico-moon{ display:none; }
+  :root[data-theme="dark"] .theme-btn .ico-sun{ display:block; }
+  :root[data-theme="light"] .theme-btn .ico-moon{ display:block; }
+  @media (prefers-color-scheme: dark){ .theme-btn .ico-sun{ display:block; } }
+  @media (prefers-color-scheme: light){ .theme-btn .ico-moon{ display:block; } }
+  :root[data-theme] .theme-btn .ico-sun,:root[data-theme] .theme-btn .ico-moon{ display:none; }
+  :root[data-theme="dark"] .theme-btn .ico-sun{ display:block; }
+  :root[data-theme="light"] .theme-btn .ico-moon{ display:block; }
+
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:10px; margin:1.25rem 0; }
+  .stat{ background:var(--card); border-radius:12px; padding:12px 14px; }
+  .stat b{ display:block; font-size:1.35rem; font-weight:700; font-variant-numeric:tabular-nums; }
+  .stat span{ font-size:.72rem; color:var(--sub); }
+
+  .tbl-card{ background:var(--card); border-radius:14px; padding:6px 14px; overflow-x:auto; }
+  table{ width:100%; border-collapse:collapse; font-size:.86rem; min-width:640px; }
+  th, td{ padding:9px 8px; text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  th:first-child, td:first-child{ text-align:left; font-variant-numeric:normal; }
+  th{ color:var(--sub); font-weight:500; font-size:.75rem; cursor:pointer; user-select:none; border-bottom:1px solid var(--line); }
+  th:hover{ color:var(--ink); }
+  td{ border-bottom:1px solid var(--line); }
+  tr:last-child td{ border-bottom:none; }
+  tr:hover td{ background:var(--bg); }
+  .pill{ display:inline-block; padding:2px 9px; border-radius:7px; font-size:.72rem; font-weight:600; }
+  .pill.up{ background:var(--up-bg); color:var(--up); }
+  .pill.down{ background:var(--down-bg); color:var(--down); }
+  .pill.warn{ background:var(--warn-bg); color:var(--warn); }
+  .pill.flat{ background:var(--chip); color:var(--sub); }
+  .num-up{ color:var(--up); font-weight:600; }
+  .num-down{ color:var(--down); font-weight:600; }
+
+  .disclaimer{ margin-top:1.5rem; font-size:.76rem; color:var(--sub); line-height:1.6; }
+  .disclaimer a{ color:var(--accent); }
 </style>
 </head>
 <body>
-  <h1>Serenity (@aleabitoreddit) Bottleneck Tracker</h1>
-  <div class="meta" id="meta">載入中…</div>
-  <table id="tbl">
-    <thead>
-      <tr>
-        <th data-k="ticker">Ticker</th>
-        <th data-k="mentions">提及次數</th>
-        <th data-k="first_seen">首次出現</th>
-        <th data-k="last_seen">最近出現</th>
-        <th data-k="last">最新價</th>
-        <th data-k="ret_1m_pct">1M %</th>
-        <th data-k="ret_3m_pct">3M %</th>
-        <th data-k="stage">Stage</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-  <div class="disclaimer">
-    資料來源：<a href="https://github.com/yan-labs/serenity-aleabitoreddit" target="_blank">yan-labs/serenity-aleabitoreddit</a>
-    公開推文提及存檔 + yfinance / EODHD 報價，每日由 GitHub Actions 自動更新。
-    僅供研究教育用途，非投資建議，與 Serenity / @aleabitoreddit 本人無官方關聯，其自報績效未經驗證。
-    自動化架構參考
-    <a href="https://iamafu.github.io/tw-us-elliott-wave/" target="_blank">tw-us-elliott-wave</a>。
-    原始碼：<a href="https://github.com/iamafu/serenity-bottleneck-tracker" target="_blank">iamafu/serenity-bottleneck-tracker</a>
+<div class="wrap">
+  <div class="hd">
+    <div>
+      <h1>Serenity Bottleneck Tracker</h1>
+      <div class="sub" id="meta">載入中…</div>
+    </div>
+    <button class="theme-btn" id="themeBtn" aria-label="切換日夜模式">
+      <svg class="ico-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>
+      <svg class="ico-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/></svg>
+    </button>
   </div>
 
+  <div class="stats" id="stats"></div>
+
+  <div class="tbl-card">
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th data-k="ticker">Ticker</th>
+          <th data-k="mentions">提及次數</th>
+          <th data-k="first_seen">首次出現</th>
+          <th data-k="last_seen">最近出現</th>
+          <th data-k="last">最新價</th>
+          <th data-k="ret_1m_pct">1M %</th>
+          <th data-k="ret_3m_pct">3M %</th>
+          <th data-k="stage">Stage</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="disclaimer">
+    資料來源：<a href="https://github.com/yan-labs/serenity-aleabitoreddit" target="_blank" rel="noopener">yan-labs/serenity-aleabitoreddit</a>
+    公開推文提及存檔 + yfinance / EODHD 報價，每日由 GitHub Actions 自動更新。
+    僅供研究教育用途，非投資建議，與 Serenity / @aleabitoreddit 本人無官方關聯，其自報績效未經驗證。
+    自動化架構參考 <a href="https://iamafu.github.io/tw-us-elliott-wave/" target="_blank" rel="noopener">tw-us-elliott-wave</a>。
+    原始碼：<a href="https://github.com/iamafu/serenity-bottleneck-tracker" target="_blank" rel="noopener">iamafu/serenity-bottleneck-tracker</a>
+  </div>
+</div>
+
 <script>
-let rows = [];
-let sortKey = 'mentions', sortDir = -1;
+(function(){
+  var stored = localStorage.getItem('serenity-theme');
+  if (stored) document.documentElement.dataset.theme = stored;
+  document.getElementById('themeBtn').addEventListener('click', function(){
+    var cur = document.documentElement.dataset.theme ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem('serenity-theme', next);
+  });
+})();
+
+var rows = [];
+var sortKey = 'mentions', sortDir = -1;
+
+function stageInfo(stage, hasError){
+  if (hasError) return {cls:'flat', label:'無資料'};
+  if (stage === 'early-uptrend') return {cls:'up', label:'early-uptrend'};
+  if (stage === 'extended/parabolic') return {cls:'warn', label:'extended/parabolic'};
+  if (stage === 'downtrend/basing') return {cls:'down', label:'downtrend/basing'};
+  return {cls:'flat', label: stage || 'range/neutral'};
+}
+
+function fmtPct(v){
+  if (v == null) return '<span style="color:var(--muted)">-</span>';
+  var cls = v > 0 ? 'num-up' : v < 0 ? 'num-down' : '';
+  return '<span class="' + cls + '">' + (v > 0 ? '+' : '') + v + '%</span>';
+}
 
 fetch('data/tickers.json?_=' + Date.now())
-  .then(r => r.json())
-  .then(d => {
+  .then(function(r){ return r.json(); })
+  .then(function(d){
     document.getElementById('meta').textContent =
-      `最後更新：${d.generated_at}　追蹤 ${d.tickers.length} 檔（依提及次數排序，點欄名可重新排序）`;
-    rows = d.tickers.map(t => ({
-      ticker: t.ticker,
-      mentions: t.mentions,
-      first_seen: t.first_seen,
-      last_seen: t.last_seen,
-      last: t.price && t.price.last != null ? t.price.last : null,
-      ret_1m_pct: t.price ? t.price.ret_1m_pct : null,
-      ret_3m_pct: t.price ? t.price.ret_3m_pct : null,
-      stage: t.price ? (t.price.stage || (t.price.error ? '無資料' : '-')) : '-',
-    }));
+      '最後更新：' + d.generated_at + '　追蹤 ' + d.tickers.length + ' 檔';
+
+    rows = d.tickers.map(function(t){
+      var hasError = !t.price || !!t.price.error;
+      var stage = hasError ? null : t.price.stage;
+      var info = stageInfo(stage, hasError);
+      return {
+        ticker: t.ticker, mentions: t.mentions,
+        first_seen: t.first_seen, last_seen: t.last_seen,
+        last: hasError ? null : t.price.last,
+        ret_1m_pct: hasError ? null : t.price.ret_1m_pct,
+        ret_3m_pct: hasError ? null : t.price.ret_3m_pct,
+        stage_cls: info.cls, stage_label: info.label,
+      };
+    });
+
+    var counts = { early: 0, extended: 0, nodata: 0 };
+    rows.forEach(function(r){
+      if (r.stage_cls === 'up') counts.early++;
+      else if (r.stage_cls === 'warn') counts.extended++;
+      else if (r.stage_label === '無資料') counts.nodata++;
+    });
+    document.getElementById('stats').innerHTML =
+      '<div class="stat"><b>' + rows.length + '</b><span>追蹤檔數</span></div>' +
+      '<div class="stat"><b style="color:var(--up)">' + counts.early + '</b><span>early-uptrend</span></div>' +
+      '<div class="stat"><b style="color:var(--warn)">' + counts.extended + '</b><span>extended/parabolic</span></div>' +
+      '<div class="stat"><b style="color:var(--muted)">' + counts.nodata + '</b><span>無資料</span></div>';
+
     render();
   })
-  .catch(() => {
+  .catch(function(){
     document.getElementById('meta').textContent = '資料載入失敗，稍後再試。';
   });
 
-function fmtPct(v) {
-  if (v == null) return '-';
-  const cls = v > 0 ? 'up' : v < 0 ? 'down' : '';
-  return `<span class="${cls}">${v > 0 ? '+' : ''}${v}%</span>`;
-}
-
-function render() {
-  rows.sort((a, b) => {
-    const av = a[sortKey], bv = b[sortKey];
+function render(){
+  rows.sort(function(a, b){
+    var av = a[sortKey], bv = b[sortKey];
     if (av == null) return 1;
     if (bv == null) return -1;
     if (av > bv) return sortDir;
     if (av < bv) return -sortDir;
     return 0;
   });
-  const tbody = document.querySelector('#tbl tbody');
-  tbody.innerHTML = rows.map(r => `
-    <tr>
-      <td><strong>${r.ticker}</strong></td>
-      <td>${r.mentions}</td>
-      <td>${r.first_seen}</td>
-      <td>${r.last_seen}</td>
-      <td>${r.last ?? '<span class="err">-</span>'}</td>
-      <td>${fmtPct(r.ret_1m_pct)}</td>
-      <td>${fmtPct(r.ret_3m_pct)}</td>
-      <td title="${r.stage}">${r.stage}</td>
-    </tr>`).join('');
+  document.querySelector('#tbl tbody').innerHTML = rows.map(function(r){
+    return '<tr>' +
+      '<td><strong>' + r.ticker + '</strong></td>' +
+      '<td>' + r.mentions + '</td>' +
+      '<td>' + r.first_seen + '</td>' +
+      '<td>' + r.last_seen + '</td>' +
+      '<td>' + (r.last != null ? r.last : '<span style="color:var(--muted)">-</span>') + '</td>' +
+      '<td>' + fmtPct(r.ret_1m_pct) + '</td>' +
+      '<td>' + fmtPct(r.ret_3m_pct) + '</td>' +
+      '<td><span class="pill ' + r.stage_cls + '">' + r.stage_label + '</span></td>' +
+      '</tr>';
+  }).join('');
 }
 
-document.querySelectorAll('#tbl th').forEach(th => {
-  th.addEventListener('click', () => {
-    const k = th.dataset.k;
+document.querySelectorAll('#tbl th').forEach(function(th){
+  th.addEventListener('click', function(){
+    var k = th.dataset.k;
     sortDir = (sortKey === k) ? -sortDir : -1;
     sortKey = k;
     render();
