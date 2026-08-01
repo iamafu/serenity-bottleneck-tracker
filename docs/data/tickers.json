@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-31T22:58:40Z",
+  "generated_at": "2026-08-01T22:53:35Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
     {
       "ticker": "NBIS",
-      "mentions": 712,
+      "mentions": 713,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "NBIS",
         "provider": "yfinance",
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "SIVE",
-      "mentions": 625,
+      "mentions": 628,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -33,9 +33,9 @@
     },
     {
       "ticker": "AXTI",
-      "mentions": 552,
+      "mentions": 553,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 550,
+      "mentions": 552,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "NVDA",
         "provider": "yfinance",
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 540,
+      "mentions": 541,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "IREN",
-      "mentions": 456,
+      "mentions": 458,
       "first_seen": "2025-08-31",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "IREN",
         "provider": "yfinance",
@@ -105,9 +105,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 451,
+      "mentions": 453,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -123,9 +123,9 @@
     },
     {
       "ticker": "GOOGL",
-      "mentions": 367,
+      "mentions": 370,
       "first_seen": "2025-07-03",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "GOOGL",
         "provider": "yfinance",
@@ -141,9 +141,9 @@
     },
     {
       "ticker": "META",
-      "mentions": 344,
+      "mentions": 347,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "META",
         "provider": "yfinance",
@@ -159,9 +159,9 @@
     },
     {
       "ticker": "MSFT",
-      "mentions": 342,
+      "mentions": 345,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "MSFT",
         "provider": "yfinance",
@@ -177,9 +177,9 @@
     },
     {
       "ticker": "AMZN",
-      "mentions": 298,
+      "mentions": 301,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "AMZN",
         "provider": "yfinance",
@@ -195,9 +195,9 @@
     },
     {
       "ticker": "TSM",
-      "mentions": 295,
+      "mentions": 296,
       "first_seen": "2025-09-09",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "TSM",
         "provider": "yfinance",
@@ -213,9 +213,9 @@
     },
     {
       "ticker": "COHR",
-      "mentions": 288,
+      "mentions": 289,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "COHR",
         "provider": "yfinance",
@@ -249,9 +249,9 @@
     },
     {
       "ticker": "CIFR",
-      "mentions": 212,
+      "mentions": 213,
       "first_seen": "2025-09-03",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "CIFR",
         "provider": "yfinance",
@@ -267,9 +267,9 @@
     },
     {
       "ticker": "MU",
-      "mentions": 204,
+      "mentions": 205,
       "first_seen": "2025-09-25",
-      "last_seen": "2026-07-28",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "MU",
         "provider": "yfinance",
@@ -367,9 +367,9 @@
     },
     {
       "ticker": "SNDK",
-      "mentions": 176,
+      "mentions": 178,
       "first_seen": "2025-11-25",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "SNDK",
         "provider": "yfinance",
@@ -413,9 +413,9 @@
     },
     {
       "ticker": "TSEM",
-      "mentions": 158,
+      "mentions": 159,
       "first_seen": "2026-02-11",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "TSEM",
         "provider": "yfinance",
@@ -431,9 +431,9 @@
     },
     {
       "ticker": "POET",
-      "mentions": 155,
+      "mentions": 156,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "POET",
         "provider": "yfinance",
@@ -449,9 +449,9 @@
     },
     {
       "ticker": "AMD",
-      "mentions": 153,
+      "mentions": 154,
       "first_seen": "2025-09-11",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "AMD",
         "provider": "yfinance",
@@ -467,9 +467,9 @@
     },
     {
       "ticker": "RDDT",
-      "mentions": 147,
+      "mentions": 150,
       "first_seen": "2025-09-14",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "RDDT",
         "provider": "yfinance",
@@ -539,9 +539,9 @@
     },
     {
       "ticker": "JBL",
-      "mentions": 132,
+      "mentions": 133,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "JBL",
         "provider": "yfinance",
@@ -575,9 +575,9 @@
     },
     {
       "ticker": "WULF",
-      "mentions": 116,
+      "mentions": 117,
       "first_seen": "2025-09-03",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-31",
       "price": {
         "ticker": "WULF",
         "provider": "yfinance",
@@ -882,6 +882,16 @@
       }
     },
     {
+      "ticker": "LPK",
+      "mentions": 54,
+      "first_seen": "2026-04-03",
+      "last_seen": "2026-07-31",
+      "price": {
+        "ticker": "LPK",
+        "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
+      }
+    },
+    {
       "ticker": "BMNR",
       "mentions": 53,
       "first_seen": "2025-09-14",
@@ -915,16 +925,6 @@
         "ret_3m_pct": -3.4,
         "above_sma50": false,
         "stage": "range/neutral"
-      }
-    },
-    {
-      "ticker": "LPK",
-      "mentions": 53,
-      "first_seen": "2026-04-03",
-      "last_seen": "2026-07-26",
-      "price": {
-        "ticker": "LPK",
-        "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
       }
     },
     {
