@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:32:56Z",
+  "generated_at": "2026-08-08T22:26:32Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "SIVE",
-      "mentions": 635,
+      "mentions": 640,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -33,9 +33,9 @@
     },
     {
       "ticker": "AXTI",
-      "mentions": 555,
+      "mentions": 557,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 552,
+      "mentions": 554,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "NVDA",
         "provider": "yfinance",
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 547,
+      "mentions": 552,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 459,
+      "mentions": 465,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -213,9 +213,9 @@
     },
     {
       "ticker": "COHR",
-      "mentions": 292,
+      "mentions": 294,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "COHR",
         "provider": "yfinance",
@@ -303,9 +303,9 @@
     },
     {
       "ticker": "AVGO",
-      "mentions": 195,
+      "mentions": 196,
       "first_seen": "2025-09-09",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "AVGO",
         "provider": "yfinance",
@@ -430,28 +430,10 @@
       }
     },
     {
-      "ticker": "POET",
-      "mentions": 156,
-      "first_seen": "2025-12-11",
-      "last_seen": "2026-07-31",
-      "price": {
-        "ticker": "POET",
-        "provider": "yfinance",
-        "last": 8.91,
-        "last_date": "2026-08-07",
-        "range_pos_6mo_pct": 25,
-        "pct_off_6mo_high": -57.2,
-        "ret_1m_pct": 7.2,
-        "ret_3m_pct": -18.6,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
-      }
-    },
-    {
       "ticker": "AMD",
-      "mentions": 155,
+      "mentions": 158,
       "first_seen": "2025-09-11",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "AMD",
         "provider": "yfinance",
@@ -463,6 +445,24 @@
         "ret_3m_pct": 6.2,
         "above_sma50": false,
         "stage": "range/neutral"
+      }
+    },
+    {
+      "ticker": "POET",
+      "mentions": 157,
+      "first_seen": "2025-12-11",
+      "last_seen": "2026-08-07",
+      "price": {
+        "ticker": "POET",
+        "provider": "yfinance",
+        "last": 8.91,
+        "last_date": "2026-08-07",
+        "range_pos_6mo_pct": 25,
+        "pct_off_6mo_high": -57.2,
+        "ret_1m_pct": 7.2,
+        "ret_3m_pct": -18.6,
+        "above_sma50": false,
+        "stage": "downtrend/basing"
       }
     },
     {
@@ -647,9 +647,9 @@
     },
     {
       "ticker": "MTSI",
-      "mentions": 90,
+      "mentions": 93,
       "first_seen": "2026-01-10",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price": {
         "ticker": "MTSI",
         "provider": "yfinance",
