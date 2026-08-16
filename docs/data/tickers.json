@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:19:05Z",
+  "generated_at": "2026-08-16T22:18:45Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "SIVE",
-      "mentions": 656,
+      "mentions": 657,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -33,9 +33,9 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 565,
+      "mentions": 567,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "AXTI",
-      "mentions": 560,
+      "mentions": 561,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 482,
+      "mentions": 486,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -231,9 +231,9 @@
     },
     {
       "ticker": "MRVL",
-      "mentions": 279,
+      "mentions": 280,
       "first_seen": "2025-08-25",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "MRVL",
         "provider": "yfinance",
@@ -267,9 +267,9 @@
     },
     {
       "ticker": "MU",
-      "mentions": 209,
+      "mentions": 211,
       "first_seen": "2025-09-25",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "MU",
         "provider": "yfinance",
@@ -356,6 +356,16 @@
       }
     },
     {
+      "ticker": "SOI",
+      "mentions": 182,
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-08-15",
+      "price": {
+        "ticker": "SOI",
+        "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
+      }
+    },
+    {
       "ticker": "SNDK",
       "mentions": 181,
       "first_seen": "2025-11-25",
@@ -374,20 +384,10 @@
       }
     },
     {
-      "ticker": "SOI",
-      "mentions": 181,
-      "first_seen": "2026-03-11",
-      "last_seen": "2026-08-13",
-      "price": {
-        "ticker": "SOI",
-        "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
-      }
-    },
-    {
       "ticker": "IQE",
-      "mentions": 173,
+      "mentions": 174,
       "first_seen": "2026-01-18",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "IQE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -413,9 +413,9 @@
     },
     {
       "ticker": "INTC",
-      "mentions": 164,
+      "mentions": 165,
       "first_seen": "2025-09-23",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "INTC",
         "provider": "yfinance",
@@ -449,9 +449,9 @@
     },
     {
       "ticker": "TSEM",
-      "mentions": 160,
+      "mentions": 161,
       "first_seen": "2026-02-11",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "TSEM",
         "provider": "yfinance",
@@ -539,9 +539,9 @@
     },
     {
       "ticker": "AEHR",
-      "mentions": 134,
+      "mentions": 135,
       "first_seen": "2026-01-16",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "AEHR",
         "provider": "yfinance",
@@ -611,9 +611,9 @@
     },
     {
       "ticker": "EWY",
-      "mentions": 104,
+      "mentions": 106,
       "first_seen": "2026-01-25",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "EWY",
         "provider": "yfinance",
@@ -683,9 +683,9 @@
     },
     {
       "ticker": "RPI",
-      "mentions": 86,
+      "mentions": 87,
       "first_seen": "2026-02-16",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "RPI",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -729,9 +729,9 @@
     },
     {
       "ticker": "AAPL",
-      "mentions": 74,
+      "mentions": 75,
       "first_seen": "2026-02-17",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-15",
       "price": {
         "ticker": "AAPL",
         "provider": "yfinance",
@@ -1000,6 +1000,24 @@
       }
     },
     {
+      "ticker": "ARM",
+      "mentions": 50,
+      "first_seen": "2026-01-22",
+      "last_seen": "2026-08-15",
+      "price": {
+        "ticker": "ARM",
+        "provider": "yfinance",
+        "last": 279.44,
+        "last_date": "2026-08-14",
+        "range_pos_6mo_pct": 49,
+        "pct_off_6mo_high": -38.3,
+        "ret_1m_pct": 4.6,
+        "ret_3m_pct": 33.6,
+        "above_sma50": false,
+        "stage": "range/neutral"
+      }
+    },
+    {
       "ticker": "WYFI",
       "mentions": 50,
       "first_seen": "2025-09-08",
@@ -1013,24 +1031,6 @@
         "pct_off_6mo_high": -37.0,
         "ret_1m_pct": 17.4,
         "ret_3m_pct": 22.0,
-        "above_sma50": false,
-        "stage": "range/neutral"
-      }
-    },
-    {
-      "ticker": "ARM",
-      "mentions": 49,
-      "first_seen": "2026-01-22",
-      "last_seen": "2026-06-01",
-      "price": {
-        "ticker": "ARM",
-        "provider": "yfinance",
-        "last": 279.44,
-        "last_date": "2026-08-14",
-        "range_pos_6mo_pct": 49,
-        "pct_off_6mo_high": -38.3,
-        "ret_1m_pct": 4.6,
-        "ret_3m_pct": 33.6,
         "above_sma50": false,
         "stage": "range/neutral"
       }
