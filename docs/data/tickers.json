@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:19:25Z",
+  "generated_at": "2026-08-23T22:19:27Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 497,
+      "mentions": 498,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-08-21",
+      "last_seen": "2026-08-22",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -231,9 +231,9 @@
     },
     {
       "ticker": "MRVL",
-      "mentions": 285,
+      "mentions": 286,
       "first_seen": "2025-08-25",
-      "last_seen": "2026-08-21",
+      "last_seen": "2026-08-22",
       "price": {
         "ticker": "MRVL",
         "provider": "yfinance",
@@ -339,9 +339,9 @@
     },
     {
       "ticker": "RKLB",
-      "mentions": 189,
+      "mentions": 190,
       "first_seen": "2025-07-03",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-22",
       "price": {
         "ticker": "RKLB",
         "provider": "yfinance",
@@ -467,9 +467,9 @@
     },
     {
       "ticker": "RDDT",
-      "mentions": 152,
+      "mentions": 153,
       "first_seen": "2025-09-14",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-22",
       "price": {
         "ticker": "RDDT",
         "provider": "yfinance",
