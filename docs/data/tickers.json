@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:53:03Z",
+  "generated_at": "2026-08-31T00:12:35Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "SIVE",
-      "mentions": 683,
+      "mentions": 691,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -33,9 +33,9 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 580,
+      "mentions": 582,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 577,
+      "mentions": 579,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "NVDA",
         "provider": "yfinance",
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "AXTI",
-      "mentions": 569,
+      "mentions": 570,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 509,
+      "mentions": 510,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -195,9 +195,9 @@
     },
     {
       "ticker": "COHR",
-      "mentions": 307,
+      "mentions": 309,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "COHR",
         "provider": "yfinance",
@@ -213,9 +213,9 @@
     },
     {
       "ticker": "TSM",
-      "mentions": 300,
+      "mentions": 301,
       "first_seen": "2025-09-09",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "TSM",
         "provider": "yfinance",
@@ -231,9 +231,9 @@
     },
     {
       "ticker": "MRVL",
-      "mentions": 287,
+      "mentions": 288,
       "first_seen": "2025-08-25",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "MRVL",
         "provider": "yfinance",
@@ -249,9 +249,9 @@
     },
     {
       "ticker": "MU",
-      "mentions": 214,
+      "mentions": 216,
       "first_seen": "2025-09-25",
-      "last_seen": "2026-08-27",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "MU",
         "provider": "yfinance",
@@ -303,9 +303,9 @@
     },
     {
       "ticker": "AVGO",
-      "mentions": 199,
+      "mentions": 200,
       "first_seen": "2025-09-09",
-      "last_seen": "2026-08-18",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "AVGO",
         "provider": "yfinance",
@@ -467,9 +467,9 @@
     },
     {
       "ticker": "RDDT",
-      "mentions": 153,
+      "mentions": 154,
       "first_seen": "2025-09-14",
-      "last_seen": "2026-08-22",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "RDDT",
         "provider": "yfinance",
@@ -557,9 +557,9 @@
     },
     {
       "ticker": "TSLA",
-      "mentions": 120,
+      "mentions": 121,
       "first_seen": "2025-08-25",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "TSLA",
         "provider": "yfinance",
@@ -765,9 +765,9 @@
     },
     {
       "ticker": "GFS",
-      "mentions": 70,
+      "mentions": 71,
       "first_seen": "2026-01-19",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-29",
       "price": {
         "ticker": "GFS",
         "provider": "yfinance",
