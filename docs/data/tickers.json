@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:33:44Z",
+  "generated_at": "2026-09-06T23:28:51Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 514,
+      "mentions": 515,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-05",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -249,9 +249,9 @@
     },
     {
       "ticker": "MU",
-      "mentions": 218,
+      "mentions": 219,
       "first_seen": "2025-09-25",
-      "last_seen": "2026-09-02",
+      "last_seen": "2026-09-05",
       "price": {
         "ticker": "MU",
         "provider": "yfinance",
@@ -339,9 +339,9 @@
     },
     {
       "ticker": "SNDK",
-      "mentions": 192,
+      "mentions": 193,
       "first_seen": "2025-11-25",
-      "last_seen": "2026-09-02",
+      "last_seen": "2026-09-05",
       "price": {
         "ticker": "SNDK",
         "provider": "yfinance",
