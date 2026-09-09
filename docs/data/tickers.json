@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:50:07Z",
+  "generated_at": "2026-09-09T23:49:47Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -11,12 +11,12 @@
       "price": {
         "ticker": "NBIS",
         "provider": "yfinance",
-        "last": 243.88,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 73,
-        "pct_off_6mo_high": -18.7,
-        "ret_1m_pct": 32.5,
-        "ret_3m_pct": 10.8,
+        "last": 240.35,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 72,
+        "pct_off_6mo_high": -19.8,
+        "ret_1m_pct": 24.4,
+        "ret_3m_pct": 13.5,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -39,12 +39,12 @@
       "price": {
         "ticker": "NVDA",
         "provider": "yfinance",
-        "last": 225.73,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 85,
-        "pct_off_6mo_high": -4.6,
-        "ret_1m_pct": 3.8,
-        "ret_3m_pct": 8.4,
+        "last": 223.67,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 82,
+        "pct_off_6mo_high": -5.4,
+        "ret_1m_pct": 2.8,
+        "ret_3m_pct": 11.6,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -57,12 +57,12 @@
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
-        "last": 978.53,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 79,
-        "pct_off_6mo_high": -9.9,
-        "ret_1m_pct": 20.3,
-        "ret_3m_pct": 19.1,
+        "last": 988.98,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 81,
+        "pct_off_6mo_high": -8.9,
+        "ret_1m_pct": 20.5,
+        "ret_3m_pct": 15.9,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -75,12 +75,12 @@
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
-        "last": 69.56,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 31,
-        "pct_off_6mo_high": -51.4,
-        "ret_1m_pct": -5.8,
-        "ret_3m_pct": -11.2,
+        "last": 68.91,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 30,
+        "pct_off_6mo_high": -51.9,
+        "ret_1m_pct": -6.6,
+        "ret_3m_pct": -19.2,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -93,12 +93,12 @@
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
-        "last": 111.55,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 23,
-        "pct_off_6mo_high": -52.3,
-        "ret_1m_pct": -16.0,
-        "ret_3m_pct": -31.5,
+        "last": 107.93,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 20,
+        "pct_off_6mo_high": -53.8,
+        "ret_1m_pct": -19.7,
+        "ret_3m_pct": -38.4,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -111,12 +111,12 @@
       "price": {
         "ticker": "IREN",
         "provider": "yfinance",
-        "last": 46.93,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 43,
-        "pct_off_6mo_high": -33.6,
-        "ret_1m_pct": 21.1,
-        "ret_3m_pct": -13.1,
+        "last": 45.37,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 39,
+        "pct_off_6mo_high": -35.8,
+        "ret_1m_pct": 14.1,
+        "ret_3m_pct": -11.9,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -129,12 +129,12 @@
       "price": {
         "ticker": "GOOGL",
         "provider": "yfinance",
-        "last": 338.36,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 49,
-        "pct_off_6mo_high": -17.2,
-        "ret_1m_pct": -5.4,
-        "ret_3m_pct": -7.1,
+        "last": 330.65,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 43,
+        "pct_off_6mo_high": -19.1,
+        "ret_1m_pct": -3.8,
+        "ret_3m_pct": -7.2,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -147,12 +147,12 @@
       "price": {
         "ticker": "MSFT",
         "provider": "yfinance",
-        "last": 493.95,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 86,
-        "pct_off_6mo_high": -4.6,
+        "last": 491.65,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 84,
+        "pct_off_6mo_high": -5.0,
         "ret_1m_pct": -2.4,
-        "ret_3m_pct": 22.4,
+        "ret_3m_pct": 23.7,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -165,14 +165,14 @@
       "price": {
         "ticker": "META",
         "provider": "yfinance",
-        "last": 613.48,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 54,
-        "pct_off_6mo_high": -11.3,
-        "ret_1m_pct": 3.1,
-        "ret_3m_pct": 4.9,
+        "last": 653.69,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 78,
+        "pct_off_6mo_high": -5.5,
+        "ret_1m_pct": 9.1,
+        "ret_3m_pct": 14.5,
         "above_sma50": true,
-        "stage": "range/neutral"
+        "stage": "early-uptrend"
       }
     },
     {
@@ -183,12 +183,12 @@
       "price": {
         "ticker": "COHR",
         "provider": "yfinance",
-        "last": 301.88,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 38,
-        "pct_off_6mo_high": -31.4,
-        "ret_1m_pct": -7.2,
-        "ret_3m_pct": -15.2,
+        "last": 303.48,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 39,
+        "pct_off_6mo_high": -31.0,
+        "ret_1m_pct": -7.6,
+        "ret_3m_pct": -14.5,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -201,14 +201,14 @@
       "price": {
         "ticker": "AMZN",
         "provider": "yfinance",
-        "last": 256.97,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 66,
-        "pct_off_6mo_high": -10.5,
-        "ret_1m_pct": -7.6,
-        "ret_3m_pct": 5.2,
-        "above_sma50": true,
-        "stage": "early-uptrend"
+        "last": 252.4,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 60,
+        "pct_off_6mo_high": -12.1,
+        "ret_1m_pct": -7.3,
+        "ret_3m_pct": 6.1,
+        "above_sma50": false,
+        "stage": "range/neutral"
       }
     },
     {
@@ -219,14 +219,14 @@
       "price": {
         "ticker": "TSM",
         "provider": "yfinance",
-        "last": 439.0,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 76,
-        "pct_off_6mo_high": -8.4,
-        "ret_1m_pct": 4.9,
-        "ret_3m_pct": 2.6,
+        "last": 435.36,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 74,
+        "pct_off_6mo_high": -9.1,
+        "ret_1m_pct": 3.2,
+        "ret_3m_pct": 6.5,
         "above_sma50": true,
-        "stage": "range/neutral"
+        "stage": "early-uptrend"
       }
     },
     {
@@ -237,12 +237,12 @@
       "price": {
         "ticker": "MRVL",
         "provider": "yfinance",
-        "last": 225.41,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 57,
-        "pct_off_6mo_high": -31.7,
-        "ret_1m_pct": 8.1,
-        "ret_3m_pct": -15.5,
+        "last": 235.01,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 61,
+        "pct_off_6mo_high": -28.8,
+        "ret_1m_pct": 10.7,
+        "ret_3m_pct": -7.0,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -255,12 +255,12 @@
       "price": {
         "ticker": "MU",
         "provider": "yfinance",
-        "last": 1000.26,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 73,
-        "pct_off_6mo_high": -20.3,
-        "ret_1m_pct": 16.2,
-        "ret_3m_pct": 6.9,
+        "last": 1027.77,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 76,
+        "pct_off_6mo_high": -18.1,
+        "ret_1m_pct": 18.3,
+        "ret_3m_pct": 15.2,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -273,11 +273,11 @@
       "price": {
         "ticker": "CIFR",
         "provider": "yfinance",
-        "last": 18.51,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 37,
-        "pct_off_6mo_high": -38.6,
-        "ret_1m_pct": 13.3,
+        "last": 16.9,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 28,
+        "pct_off_6mo_high": -43.9,
+        "ret_1m_pct": -1.8,
         "ret_3m_pct": -19.6,
         "above_sma50": false,
         "stage": "downtrend/basing"
@@ -291,12 +291,12 @@
       "price": {
         "ticker": "CRWV",
         "provider": "yfinance",
-        "last": 99.83,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 51,
-        "pct_off_6mo_high": -27.8,
-        "ret_1m_pct": 13.2,
-        "ret_3m_pct": 1.4,
+        "last": 94.94,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 44,
+        "pct_off_6mo_high": -31.3,
+        "ret_1m_pct": 5.1,
+        "ret_3m_pct": -0.7,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -309,12 +309,12 @@
       "price": {
         "ticker": "AVGO",
         "provider": "yfinance",
-        "last": 368.56,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 38,
-        "pct_off_6mo_high": -25.5,
-        "ret_1m_pct": -12.7,
-        "ret_3m_pct": -6.0,
+        "last": 364.38,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 36,
+        "pct_off_6mo_high": -26.4,
+        "ret_1m_pct": -12.4,
+        "ret_3m_pct": -2.1,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -327,12 +327,12 @@
       "price": {
         "ticker": "HOOD",
         "provider": "yfinance",
-        "last": 117.34,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 87,
-        "pct_off_6mo_high": -6.3,
-        "ret_1m_pct": 24.1,
-        "ret_3m_pct": 40.1,
+        "last": 115.28,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 84,
+        "pct_off_6mo_high": -8.0,
+        "ret_1m_pct": 22.1,
+        "ret_3m_pct": 33.5,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -345,14 +345,14 @@
       "price": {
         "ticker": "SNDK",
         "provider": "yfinance",
-        "last": 1737.99,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 66,
-        "pct_off_6mo_high": -26.2,
-        "ret_1m_pct": 40.4,
-        "ret_3m_pct": 5.6,
+        "last": 1764.17,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 67,
+        "pct_off_6mo_high": -25.1,
+        "ret_1m_pct": 38.8,
+        "ret_3m_pct": 7.4,
         "above_sma50": true,
-        "stage": "extended/parabolic"
+        "stage": "early-uptrend"
       }
     },
     {
@@ -363,12 +363,12 @@
       "price": {
         "ticker": "RKLB",
         "provider": "yfinance",
-        "last": 65.87,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 10,
-        "pct_off_6mo_high": -56.4,
-        "ret_1m_pct": -17.7,
-        "ret_3m_pct": -39.1,
+        "last": 63.07,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 7,
+        "pct_off_6mo_high": -58.2,
+        "ret_1m_pct": -21.2,
+        "ret_3m_pct": -40.0,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -401,14 +401,14 @@
       "price": {
         "ticker": "POET",
         "provider": "yfinance",
-        "last": 8.31,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 22,
-        "pct_off_6mo_high": -60.1,
-        "ret_1m_pct": -2.9,
-        "ret_3m_pct": -22.8,
-        "above_sma50": true,
-        "stage": "range/neutral"
+        "last": 8.0,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 20,
+        "pct_off_6mo_high": -61.6,
+        "ret_1m_pct": -6.9,
+        "ret_3m_pct": -27.1,
+        "above_sma50": false,
+        "stage": "downtrend/basing"
       }
     },
     {
@@ -419,12 +419,12 @@
       "price": {
         "ticker": "INTC",
         "provider": "yfinance",
-        "last": 104.47,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 63,
-        "pct_off_6mo_high": -26.6,
-        "ret_1m_pct": 7.1,
-        "ret_3m_pct": -3.2,
+        "last": 106.24,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 65,
+        "pct_off_6mo_high": -25.4,
+        "ret_1m_pct": 8.7,
+        "ret_3m_pct": -0.7,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -437,12 +437,12 @@
       "price": {
         "ticker": "AMD",
         "provider": "yfinance",
-        "last": 505.74,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 80,
-        "pct_off_6mo_high": -13.5,
-        "ret_1m_pct": 7.7,
-        "ret_3m_pct": 6.4,
+        "last": 521.09,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 84,
+        "pct_off_6mo_high": -10.9,
+        "ret_1m_pct": 9.9,
+        "ret_3m_pct": 15.2,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -455,12 +455,12 @@
       "price": {
         "ticker": "TSEM",
         "provider": "yfinance",
-        "last": 219.82,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 52,
-        "pct_off_6mo_high": -31.3,
-        "ret_1m_pct": -13.0,
-        "ret_3m_pct": -3.6,
+        "last": 216.57,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 49,
+        "pct_off_6mo_high": -32.3,
+        "ret_1m_pct": -13.2,
+        "ret_3m_pct": -7.3,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -473,12 +473,12 @@
       "price": {
         "ticker": "RDDT",
         "provider": "yfinance",
-        "last": 149.38,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 34,
-        "pct_off_6mo_high": -28.2,
-        "ret_1m_pct": -5.9,
-        "ret_3m_pct": -16.1,
+        "last": 146.44,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 31,
+        "pct_off_6mo_high": -29.6,
+        "ret_1m_pct": -6.2,
+        "ret_3m_pct": -15.0,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -491,12 +491,12 @@
       "price": {
         "ticker": "JBL",
         "provider": "yfinance",
-        "last": 312.33,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 39,
-        "pct_off_6mo_high": -27.2,
-        "ret_1m_pct": -7.2,
-        "ret_3m_pct": -13.8,
+        "last": 311.37,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 38,
+        "pct_off_6mo_high": -27.4,
+        "ret_1m_pct": -12.7,
+        "ret_3m_pct": -11.6,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -509,12 +509,12 @@
       "price": {
         "ticker": "ORCL",
         "provider": "yfinance",
-        "last": 162.52,
-        "last_date": "2026-09-08",
+        "last": 161.63,
+        "last_date": "2026-09-09",
         "range_pos_6mo_pct": 35,
-        "pct_off_6mo_high": -35.1,
-        "ret_1m_pct": 7.6,
-        "ret_3m_pct": -21.0,
+        "pct_off_6mo_high": -35.4,
+        "ret_1m_pct": 11.1,
+        "ret_3m_pct": -19.7,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -527,13 +527,13 @@
       "price": {
         "ticker": "AEHR",
         "provider": "yfinance",
-        "last": 90.79,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 52,
-        "pct_off_6mo_high": -38.4,
-        "ret_1m_pct": -14.5,
-        "ret_3m_pct": -3.7,
-        "above_sma50": false,
+        "last": 95.56,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 56,
+        "pct_off_6mo_high": -35.2,
+        "ret_1m_pct": -18.5,
+        "ret_3m_pct": 2.4,
+        "above_sma50": true,
         "stage": "range/neutral"
       }
     },
@@ -545,12 +545,12 @@
       "price": {
         "ticker": "HIMS",
         "provider": "yfinance",
-        "last": 28.17,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 47,
-        "pct_off_6mo_high": -27.9,
-        "ret_1m_pct": -11.3,
-        "ret_3m_pct": -2.8,
+        "last": 27.9,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 45,
+        "pct_off_6mo_high": -28.6,
+        "ret_1m_pct": -8.6,
+        "ret_3m_pct": 0.4,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -563,12 +563,12 @@
       "price": {
         "ticker": "TSLA",
         "provider": "yfinance",
-        "last": 368.16,
-        "last_date": "2026-09-08",
+        "last": 367.81,
+        "last_date": "2026-09-09",
         "range_pos_6mo_pct": 45,
-        "pct_off_6mo_high": -18.8,
-        "ret_1m_pct": 11.3,
-        "ret_3m_pct": -7.2,
+        "pct_off_6mo_high": -18.9,
+        "ret_1m_pct": 10.5,
+        "ret_3m_pct": -3.6,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -581,12 +581,12 @@
       "price": {
         "ticker": "WULF",
         "provider": "yfinance",
-        "last": 17.86,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 28,
-        "pct_off_6mo_high": -40.1,
-        "ret_1m_pct": 10.2,
-        "ret_3m_pct": -29.4,
+        "last": 17.13,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 24,
+        "pct_off_6mo_high": -42.6,
+        "ret_1m_pct": 2.3,
+        "ret_3m_pct": -26.1,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -599,14 +599,14 @@
       "price": {
         "ticker": "CRCL",
         "provider": "yfinance",
-        "last": 96.18,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 47,
-        "pct_off_6mo_high": -31.3,
-        "ret_1m_pct": 43.4,
-        "ret_3m_pct": 18.6,
+        "last": 92.99,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 43,
+        "pct_off_6mo_high": -33.6,
+        "ret_1m_pct": 30.7,
+        "ret_3m_pct": 17.8,
         "above_sma50": true,
-        "stage": "extended/parabolic"
+        "stage": "early-uptrend"
       }
     },
     {
@@ -617,14 +617,14 @@
       "price": {
         "ticker": "EWY",
         "provider": "yfinance",
-        "last": 189.91,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 71,
-        "pct_off_6mo_high": -14.0,
-        "ret_1m_pct": 16.4,
-        "ret_3m_pct": 3.2,
+        "last": 190.78,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 72,
+        "pct_off_6mo_high": -13.6,
+        "ret_1m_pct": 14.1,
+        "ret_3m_pct": 6.9,
         "above_sma50": true,
-        "stage": "range/neutral"
+        "stage": "early-uptrend"
       }
     },
     {
@@ -635,14 +635,14 @@
       "price": {
         "ticker": "MTSI",
         "provider": "yfinance",
-        "last": 274.8,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 32,
-        "pct_off_6mo_high": -34.4,
-        "ret_1m_pct": -7.5,
-        "ret_3m_pct": -23.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "last": 286.12,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 38,
+        "pct_off_6mo_high": -31.7,
+        "ret_1m_pct": -4.6,
+        "ret_3m_pct": -19.3,
+        "above_sma50": true,
+        "stage": "range/neutral"
       }
     },
     {
@@ -653,14 +653,14 @@
       "price": {
         "ticker": "ALAB",
         "provider": "yfinance",
-        "last": 288.85,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 48,
-        "pct_off_6mo_high": -42.2,
-        "ret_1m_pct": -8.9,
-        "ret_3m_pct": -15.5,
+        "last": 300.54,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 50,
+        "pct_off_6mo_high": -39.8,
+        "ret_1m_pct": -3.7,
+        "ret_3m_pct": -9.2,
         "above_sma50": false,
-        "stage": "downtrend/basing"
+        "stage": "range/neutral"
       }
     },
     {
@@ -671,14 +671,14 @@
       "price": {
         "ticker": "SMCI",
         "provider": "yfinance",
-        "last": 40.26,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 65,
-        "pct_off_6mo_high": -21.7,
-        "ret_1m_pct": 28.0,
-        "ret_3m_pct": -0.9,
+        "last": 38.93,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 61,
+        "pct_off_6mo_high": -24.3,
+        "ret_1m_pct": 23.2,
+        "ret_3m_pct": 33.0,
         "above_sma50": true,
-        "stage": "range/neutral"
+        "stage": "early-uptrend"
       }
     },
     {
@@ -699,12 +699,12 @@
       "price": {
         "ticker": "CRDO",
         "provider": "yfinance",
-        "last": 167.75,
-        "last_date": "2026-09-08",
+        "last": 167.92,
+        "last_date": "2026-09-09",
         "range_pos_6mo_pct": 37,
-        "pct_off_6mo_high": -45.7,
-        "ret_1m_pct": -30.1,
-        "ret_3m_pct": -28.4,
+        "pct_off_6mo_high": -45.6,
+        "ret_1m_pct": -32.2,
+        "ret_3m_pct": -29.4,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -717,14 +717,14 @@
       "price": {
         "ticker": "AAPL",
         "provider": "yfinance",
-        "last": 316.22,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 71,
-        "pct_off_6mo_high": -8.2,
-        "ret_1m_pct": 2.6,
-        "ret_3m_pct": 8.8,
-        "above_sma50": true,
-        "stage": "early-uptrend"
+        "last": 315.34,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 70,
+        "pct_off_6mo_high": -8.5,
+        "ret_1m_pct": 3.4,
+        "ret_3m_pct": 8.1,
+        "above_sma50": false,
+        "stage": "range/neutral"
       }
     },
     {
@@ -735,12 +735,12 @@
       "price": {
         "ticker": "SNAP",
         "provider": "yfinance",
-        "last": 5.43,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 64,
-        "pct_off_6mo_high": -14.6,
-        "ret_1m_pct": 1.5,
-        "ret_3m_pct": -2.9,
+        "last": 5.31,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 59,
+        "pct_off_6mo_high": -16.4,
+        "ret_1m_pct": -3.6,
+        "ret_3m_pct": -1.3,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -753,12 +753,12 @@
       "price": {
         "ticker": "GFS",
         "provider": "yfinance",
-        "last": 45.09,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 9,
-        "pct_off_6mo_high": -51.3,
-        "ret_1m_pct": -9.9,
-        "ret_3m_pct": -40.1,
+        "last": 45.95,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 10,
+        "pct_off_6mo_high": -50.4,
+        "ret_1m_pct": -9.6,
+        "ret_3m_pct": -38.6,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -771,12 +771,12 @@
       "price": {
         "ticker": "VLN",
         "provider": "yfinance",
-        "last": 1.69,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 23,
-        "pct_off_6mo_high": -54.4,
-        "ret_1m_pct": 1.2,
-        "ret_3m_pct": -21.4,
+        "last": 1.68,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 22,
+        "pct_off_6mo_high": -54.7,
+        "ret_1m_pct": 0.0,
+        "ret_3m_pct": -20.0,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -789,12 +789,12 @@
       "price": {
         "ticker": "OSS",
         "provider": "yfinance",
-        "last": 9.83,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 21,
-        "pct_off_6mo_high": -52.9,
-        "ret_1m_pct": -22.3,
-        "ret_3m_pct": -37.4,
+        "last": 9.39,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 18,
+        "pct_off_6mo_high": -55.0,
+        "ret_1m_pct": -26.2,
+        "ret_3m_pct": -40.4,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -807,12 +807,12 @@
       "price": {
         "ticker": "LPTH",
         "provider": "yfinance",
-        "last": 10.75,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 18,
-        "pct_off_6mo_high": -43.2,
-        "ret_1m_pct": -14.5,
-        "ret_3m_pct": -23.6,
+        "last": 10.14,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 12,
+        "pct_off_6mo_high": -46.5,
+        "ret_1m_pct": -22.5,
+        "ret_3m_pct": -29.0,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -825,12 +825,12 @@
       "price": {
         "ticker": "PLTR",
         "provider": "yfinance",
-        "last": 170.3,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 78,
-        "pct_off_6mo_high": -9.6,
-        "ret_1m_pct": -2.8,
-        "ret_3m_pct": 28.9,
+        "last": 169.53,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 77,
+        "pct_off_6mo_high": -10.0,
+        "ret_1m_pct": -3.1,
+        "ret_3m_pct": 30.2,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -843,12 +843,12 @@
       "price": {
         "ticker": "VPG",
         "provider": "yfinance",
-        "last": 64.68,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 23,
-        "pct_off_6mo_high": -57.4,
-        "ret_1m_pct": -0.3,
-        "ret_3m_pct": -47.3,
+        "last": 63.26,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 21,
+        "pct_off_6mo_high": -58.3,
+        "ret_1m_pct": -5.8,
+        "ret_3m_pct": -48.3,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -861,12 +861,12 @@
       "price": {
         "ticker": "IBKR",
         "provider": "yfinance",
-        "last": 90.97,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 78,
-        "pct_off_6mo_high": -7.9,
-        "ret_1m_pct": 0.3,
-        "ret_3m_pct": 5.4,
+        "last": 90.28,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 76,
+        "pct_off_6mo_high": -8.6,
+        "ret_1m_pct": 0.6,
+        "ret_3m_pct": 5.7,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -899,12 +899,12 @@
       "price": {
         "ticker": "BMNR",
         "provider": "yfinance",
-        "last": 24.77,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 85,
-        "pct_off_6mo_high": -8.0,
-        "ret_1m_pct": 36.9,
-        "ret_3m_pct": 52.9,
+        "last": 24.21,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 81,
+        "pct_off_6mo_high": -10.0,
+        "ret_1m_pct": 33.8,
+        "ret_3m_pct": 54.8,
         "above_sma50": true,
         "stage": "early-uptrend"
       }
@@ -917,12 +917,12 @@
       "price": {
         "ticker": "ETOR",
         "provider": "yfinance",
-        "last": 30.89,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 22,
-        "pct_off_6mo_high": -28.7,
-        "ret_1m_pct": -9.1,
-        "ret_3m_pct": -19.1,
+        "last": 30.6,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 20,
+        "pct_off_6mo_high": -29.4,
+        "ret_1m_pct": 4.3,
+        "ret_3m_pct": -19.0,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -935,12 +935,12 @@
       "price": {
         "ticker": "XLU",
         "provider": "yfinance",
-        "last": 43.45,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 27,
-        "pct_off_6mo_high": -8.9,
-        "ret_1m_pct": 0.7,
-        "ret_3m_pct": -1.2,
+        "last": 42.94,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 18,
+        "pct_off_6mo_high": -10.0,
+        "ret_1m_pct": -1.6,
+        "ret_3m_pct": -2.4,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -953,12 +953,12 @@
       "price": {
         "ticker": "FLNC",
         "provider": "yfinance",
-        "last": 11.04,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 5,
-        "pct_off_6mo_high": -63.2,
-        "ret_1m_pct": -12.7,
-        "ret_3m_pct": -52.9,
+        "last": 10.12,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 1,
+        "pct_off_6mo_high": -66.2,
+        "ret_1m_pct": -22.8,
+        "ret_3m_pct": -53.2,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -971,12 +971,12 @@
       "price": {
         "ticker": "SLNH",
         "provider": "yfinance",
-        "last": 1.27,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 38,
-        "pct_off_6mo_high": -46.2,
-        "ret_1m_pct": 5.8,
-        "ret_3m_pct": -10.6,
+        "last": 1.24,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 37,
+        "pct_off_6mo_high": -47.5,
+        "ret_1m_pct": -2.4,
+        "ret_3m_pct": -9.5,
         "above_sma50": true,
         "stage": "range/neutral"
       }
@@ -989,12 +989,12 @@
       "price": {
         "ticker": "ARM",
         "provider": "yfinance",
-        "last": 261.53,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 43,
-        "pct_off_6mo_high": -42.2,
-        "ret_1m_pct": -2.4,
-        "ret_3m_pct": -19.5,
+        "last": 264.23,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 44,
+        "pct_off_6mo_high": -41.6,
+        "ret_1m_pct": -1.7,
+        "ret_3m_pct": -14.1,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -1007,12 +1007,12 @@
       "price": {
         "ticker": "FN",
         "provider": "yfinance",
-        "last": 416.31,
-        "last_date": "2026-09-08",
+        "last": 418.27,
+        "last_date": "2026-09-09",
         "range_pos_6mo_pct": 10,
-        "pct_off_6mo_high": -44.4,
-        "ret_1m_pct": -21.0,
-        "ret_3m_pct": -29.0,
+        "pct_off_6mo_high": -44.1,
+        "ret_1m_pct": -20.5,
+        "ret_3m_pct": -27.9,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
@@ -1025,12 +1025,12 @@
       "price": {
         "ticker": "WYFI",
         "provider": "yfinance",
-        "last": 20.57,
-        "last_date": "2026-09-08",
-        "range_pos_6mo_pct": 28,
-        "pct_off_6mo_high": -56.1,
-        "ret_1m_pct": -12.9,
-        "ret_3m_pct": -11.7,
+        "last": 19.31,
+        "last_date": "2026-09-09",
+        "range_pos_6mo_pct": 24,
+        "pct_off_6mo_high": -58.8,
+        "ret_1m_pct": -20.3,
+        "ret_3m_pct": -15.4,
         "above_sma50": false,
         "stage": "downtrend/basing"
       }
