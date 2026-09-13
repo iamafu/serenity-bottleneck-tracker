@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:44:27Z",
+  "generated_at": "2026-09-13T23:53:45Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -285,9 +285,9 @@
     },
     {
       "ticker": "CRWV",
-      "mentions": 209,
+      "mentions": 210,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-09-02",
+      "last_seen": "2026-09-11",
       "price": {
         "ticker": "CRWV",
         "provider": "yfinance",
@@ -339,9 +339,9 @@
     },
     {
       "ticker": "SNDK",
-      "mentions": 193,
+      "mentions": 194,
       "first_seen": "2025-11-25",
-      "last_seen": "2026-09-05",
+      "last_seen": "2026-09-11",
       "price": {
         "ticker": "SNDK",
         "provider": "yfinance",
@@ -431,9 +431,9 @@
     },
     {
       "ticker": "AMD",
-      "mentions": 165,
+      "mentions": 166,
       "first_seen": "2025-09-11",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-11",
       "price": {
         "ticker": "AMD",
         "provider": "yfinance",
