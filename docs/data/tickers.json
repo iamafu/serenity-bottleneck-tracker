@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:40:46Z",
+  "generated_at": "2026-10-12T00:58:44Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "SIVE",
-      "mentions": 716,
+      "mentions": 717,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 603,
+      "mentions": 606,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "AXTI",
-      "mentions": 580,
+      "mentions": 581,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
@@ -87,7 +87,7 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 532,
+      "mentions": 534,
       "first_seen": "2025-12-11",
       "last_seen": "2026-10-10",
       "price": {
@@ -177,9 +177,9 @@
     },
     {
       "ticker": "COHR",
-      "mentions": 320,
+      "mentions": 321,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "COHR",
         "provider": "yfinance",
@@ -303,9 +303,9 @@
     },
     {
       "ticker": "AVGO",
-      "mentions": 212,
+      "mentions": 213,
       "first_seen": "2025-09-09",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "AVGO",
         "provider": "yfinance",
@@ -321,9 +321,9 @@
     },
     {
       "ticker": "SNDK",
-      "mentions": 199,
+      "mentions": 200,
       "first_seen": "2025-11-25",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "SNDK",
         "provider": "yfinance",
@@ -385,9 +385,9 @@
     },
     {
       "ticker": "IQE",
-      "mentions": 178,
+      "mentions": 179,
       "first_seen": "2026-01-18",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "IQE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -466,6 +466,24 @@
       }
     },
     {
+      "ticker": "JBL",
+      "mentions": 160,
+      "first_seen": "2025-12-01",
+      "last_seen": "2026-10-10",
+      "price": {
+        "ticker": "JBL",
+        "provider": "yfinance",
+        "last": 306.28,
+        "last_date": "2026-10-09",
+        "range_pos_6mo_pct": 15,
+        "pct_off_6mo_high": -28.6,
+        "ret_1m_pct": -3.7,
+        "ret_3m_pct": -6.3,
+        "above_sma50": false,
+        "stage": "range/neutral"
+      }
+    },
+    {
       "ticker": "RDDT",
       "mentions": 160,
       "first_seen": "2025-09-14",
@@ -480,24 +498,6 @@
         "ret_1m_pct": 1.4,
         "ret_3m_pct": -21.3,
         "above_sma50": true,
-        "stage": "range/neutral"
-      }
-    },
-    {
-      "ticker": "JBL",
-      "mentions": 159,
-      "first_seen": "2025-12-01",
-      "last_seen": "2026-09-30",
-      "price": {
-        "ticker": "JBL",
-        "provider": "yfinance",
-        "last": 306.28,
-        "last_date": "2026-10-09",
-        "range_pos_6mo_pct": 15,
-        "pct_off_6mo_high": -28.6,
-        "ret_1m_pct": -3.7,
-        "ret_3m_pct": -6.3,
-        "above_sma50": false,
         "stage": "range/neutral"
       }
     },
@@ -629,9 +629,9 @@
     },
     {
       "ticker": "MTSI",
-      "mentions": 109,
+      "mentions": 110,
       "first_seen": "2026-01-10",
-      "last_seen": "2026-09-09",
+      "last_seen": "2026-10-10",
       "price": {
         "ticker": "MTSI",
         "provider": "yfinance",
