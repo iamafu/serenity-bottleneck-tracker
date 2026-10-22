@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-21T00:23:03Z",
+  "generated_at": "2026-10-22T00:26:17Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
     {
       "ticker": "NBIS",
-      "mentions": 741,
+      "mentions": 742,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-20",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "SIVE",
-      "mentions": 722,
+      "mentions": 723,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-20",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -24,9 +24,9 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 620,
+      "mentions": 622,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-20",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 538,
+      "mentions": 540,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-21",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -350,9 +350,9 @@
     },
     {
       "ticker": "SMCI",
-      "mentions": 96,
+      "mentions": 97,
       "first_seen": "2025-09-09",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-10-20",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
