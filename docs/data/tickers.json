@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-23T00:23:56Z",
+  "generated_at": "2026-10-24T00:15:45Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
     {
       "ticker": "NBIS",
-      "mentions": 742,
+      "mentions": 743,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "SIVE",
-      "mentions": 723,
+      "mentions": 724,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-22",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -24,18 +24,18 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 622,
+      "mentions": 623,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "LITE",
-      "mentions": 615,
+      "mentions": 616,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 540,
+      "mentions": 541,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "GOOGL",
-      "mentions": 387,
+      "mentions": 388,
       "first_seen": "2025-07-03",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -177,18 +177,18 @@
     },
     {
       "ticker": "HOOD",
-      "mentions": 196,
+      "mentions": 197,
       "first_seen": "2025-07-02",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "RKLB",
-      "mentions": 190,
+      "mentions": 191,
       "first_seen": "2025-07-03",
-      "last_seen": "2026-08-22",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -233,9 +233,9 @@
     },
     {
       "ticker": "AMD",
-      "mentions": 175,
+      "mentions": 176,
       "first_seen": "2025-09-11",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-22",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
