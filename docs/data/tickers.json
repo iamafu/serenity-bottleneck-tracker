@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T23:59:48Z",
+  "generated_at": "2026-10-25T23:49:03Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
     {
       "ticker": "NBIS",
-      "mentions": 745,
+      "mentions": 746,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-10-23",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "NBIS",
         "provider": "yfinance",
@@ -23,9 +23,9 @@
     },
     {
       "ticker": "SIVE",
-      "mentions": 724,
+      "mentions": 729,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 616,
+      "mentions": 619,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "LITE",
         "provider": "yfinance",
@@ -87,9 +87,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 541,
+      "mentions": 545,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "AAOI",
         "provider": "yfinance",
@@ -159,9 +159,9 @@
     },
     {
       "ticker": "META",
-      "mentions": 352,
+      "mentions": 354,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "META",
         "provider": "yfinance",
@@ -177,9 +177,9 @@
     },
     {
       "ticker": "COHR",
-      "mentions": 322,
+      "mentions": 324,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "COHR",
         "provider": "yfinance",
@@ -195,9 +195,9 @@
     },
     {
       "ticker": "AMZN",
-      "mentions": 318,
+      "mentions": 320,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "AMZN",
         "provider": "yfinance",
@@ -249,9 +249,9 @@
     },
     {
       "ticker": "MU",
-      "mentions": 234,
+      "mentions": 235,
       "first_seen": "2025-09-25",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "MU",
         "provider": "yfinance",
@@ -413,9 +413,9 @@
     },
     {
       "ticker": "POET",
-      "mentions": 177,
+      "mentions": 178,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "POET",
         "provider": "yfinance",
@@ -431,9 +431,9 @@
     },
     {
       "ticker": "AMD",
-      "mentions": 176,
+      "mentions": 177,
       "first_seen": "2025-09-11",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "AMD",
         "provider": "yfinance",
@@ -467,9 +467,9 @@
     },
     {
       "ticker": "JBL",
-      "mentions": 161,
+      "mentions": 163,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "JBL",
         "provider": "yfinance",
@@ -610,6 +610,24 @@
       }
     },
     {
+      "ticker": "MTSI",
+      "mentions": 114,
+      "first_seen": "2026-01-10",
+      "last_seen": "2026-10-24",
+      "price": {
+        "ticker": "MTSI",
+        "provider": "yfinance",
+        "last": 236.24,
+        "last_date": "2026-10-23",
+        "range_pos_6mo_pct": 6,
+        "pct_off_6mo_high": -43.6,
+        "ret_1m_pct": -17.3,
+        "ret_3m_pct": -5.2,
+        "above_sma50": false,
+        "stage": "range/neutral"
+      }
+    },
+    {
       "ticker": "CRCL",
       "mentions": 113,
       "first_seen": "2025-07-03",
@@ -623,24 +641,6 @@
         "pct_off_6mo_high": -38.6,
         "ret_1m_pct": -3.5,
         "ret_3m_pct": 33.6,
-        "above_sma50": false,
-        "stage": "range/neutral"
-      }
-    },
-    {
-      "ticker": "MTSI",
-      "mentions": 112,
-      "first_seen": "2026-01-10",
-      "last_seen": "2026-10-15",
-      "price": {
-        "ticker": "MTSI",
-        "provider": "yfinance",
-        "last": 236.24,
-        "last_date": "2026-10-23",
-        "range_pos_6mo_pct": 6,
-        "pct_off_6mo_high": -43.6,
-        "ret_1m_pct": -17.3,
-        "ret_3m_pct": -5.2,
         "above_sma50": false,
         "stage": "range/neutral"
       }
@@ -711,9 +711,9 @@
     },
     {
       "ticker": "AAPL",
-      "mentions": 81,
+      "mentions": 83,
       "first_seen": "2026-02-17",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "AAPL",
         "provider": "yfinance",
@@ -747,9 +747,9 @@
     },
     {
       "ticker": "GFS",
-      "mentions": 75,
+      "mentions": 77,
       "first_seen": "2026-01-19",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-24",
       "price": {
         "ticker": "GFS",
         "provider": "yfinance",
