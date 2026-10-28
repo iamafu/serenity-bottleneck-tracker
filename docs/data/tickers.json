@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T01:08:04Z",
+  "generated_at": "2026-10-28T00:58:16Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -24,18 +24,18 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 627,
+      "mentions": 628,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "LITE",
-      "mentions": 621,
+      "mentions": 622,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -51,9 +51,9 @@
     },
     {
       "ticker": "AAOI",
-      "mentions": 547,
+      "mentions": 548,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "GOOGL",
-      "mentions": 389,
+      "mentions": 391,
       "first_seen": "2025-07-03",
-      "last_seen": "2026-10-23",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -105,9 +105,9 @@
     },
     {
       "ticker": "AMZN",
-      "mentions": 321,
+      "mentions": 322,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -132,9 +132,9 @@
     },
     {
       "ticker": "MU",
-      "mentions": 236,
+      "mentions": 237,
       "first_seen": "2025-09-25",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -159,9 +159,9 @@
     },
     {
       "ticker": "CIFR",
-      "mentions": 215,
+      "mentions": 216,
       "first_seen": "2025-09-03",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -241,19 +241,19 @@
       }
     },
     {
-      "ticker": "JBL",
-      "mentions": 164,
-      "first_seen": "2025-12-01",
-      "last_seen": "2026-10-25",
+      "ticker": "TSEM",
+      "mentions": 165,
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
     },
     {
-      "ticker": "TSEM",
+      "ticker": "JBL",
       "mentions": 164,
-      "first_seen": "2026-02-11",
-      "last_seen": "2026-09-17",
+      "first_seen": "2025-12-01",
+      "last_seen": "2026-10-25",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
@@ -487,6 +487,15 @@
       }
     },
     {
+      "ticker": "FLNC",
+      "mentions": 54,
+      "first_seen": "2025-10-04",
+      "last_seen": "2026-10-27",
+      "price": {
+        "error": "cannot convert float NaN to integer"
+      }
+    },
+    {
       "ticker": "SLNH",
       "mentions": 54,
       "first_seen": "2025-09-27",
@@ -514,15 +523,6 @@
       }
     },
     {
-      "ticker": "FLNC",
-      "mentions": 53,
-      "first_seen": "2025-10-04",
-      "last_seen": "2026-09-24",
-      "price": {
-        "error": "cannot convert float NaN to integer"
-      }
-    },
-    {
       "ticker": "XLU",
       "mentions": 53,
       "first_seen": "2026-02-19",
@@ -542,9 +542,9 @@
     },
     {
       "ticker": "WYFI",
-      "mentions": 51,
+      "mentions": 52,
       "first_seen": "2025-09-08",
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-10-27",
       "price": {
         "error": "cannot convert float NaN to integer"
       }
