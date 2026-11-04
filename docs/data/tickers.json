@@ -1,31 +1,22 @@
 {
-  "generated_at": "2026-11-03T03:18:14Z",
+  "generated_at": "2026-11-04T01:53:40Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
     {
       "ticker": "NBIS",
-      "mentions": 747,
+      "mentions": 749,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "NBIS",
-        "provider": "yfinance",
-        "last": 141.39,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -52.8,
-        "ret_1m_pct": -39.2,
-        "ret_3m_pct": -35.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "SIVE",
-      "mentions": 734,
+      "mentions": 736,
       "first_seen": "2025-12-23",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
         "ticker": "SIVE",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
@@ -33,74 +24,38 @@
     },
     {
       "ticker": "LITE",
-      "mentions": 629,
+      "mentions": 633,
       "first_seen": "2025-10-25",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "LITE",
-        "provider": "yfinance",
-        "last": 684.4,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 16,
-        "pct_off_6mo_high": -40.1,
-        "ret_1m_pct": -37.3,
-        "ret_3m_pct": -17.2,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "NVDA",
-      "mentions": 629,
+      "mentions": 630,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "NVDA",
-        "provider": "yfinance",
-        "last": 202.06,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 23,
-        "pct_off_6mo_high": -17.0,
-        "ret_1m_pct": -15.4,
-        "ret_3m_pct": -7.8,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "AXTI",
-      "mentions": 583,
+      "mentions": 584,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "AXTI",
-        "provider": "yfinance",
-        "last": 48.2,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 11,
-        "pct_off_6mo_high": -66.3,
-        "ret_1m_pct": -44.4,
-        "ret_3m_pct": -29.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "AAOI",
-      "mentions": 551,
+      "mentions": 553,
       "first_seen": "2025-12-11",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "AAOI",
-        "provider": "yfinance",
-        "last": 62.5,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -73.3,
-        "ret_1m_pct": -48.6,
-        "ret_3m_pct": -51.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -109,16 +64,7 @@
       "first_seen": "2025-08-31",
       "last_seen": "2026-10-19",
       "price": {
-        "ticker": "IREN",
-        "provider": "yfinance",
-        "last": 22.02,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -68.9,
-        "ret_1m_pct": -45.6,
-        "ret_3m_pct": -43.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -127,16 +73,7 @@
       "first_seen": "2025-07-03",
       "last_seen": "2026-10-28",
       "price": {
-        "ticker": "GOOGL",
-        "provider": "yfinance",
-        "last": 278.99,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 2,
-        "pct_off_6mo_high": -31.7,
-        "ret_1m_pct": -19.5,
-        "ret_3m_pct": -23.0,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -145,16 +82,7 @@
       "first_seen": "2025-07-28",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "MSFT",
-        "provider": "yfinance",
-        "last": 507.12,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 78,
-        "pct_off_6mo_high": -8.0,
-        "ret_1m_pct": -3.4,
-        "ret_3m_pct": 4.0,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -163,70 +91,34 @@
       "first_seen": "2025-07-28",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "META",
-        "provider": "yfinance",
-        "last": 606.73,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 32,
-        "pct_off_6mo_high": -22.2,
-        "ret_1m_pct": -18.2,
-        "ret_3m_pct": 3.1,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "COHR",
-      "mentions": 328,
+      "mentions": 330,
       "first_seen": "2025-12-01",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "COHR",
-        "provider": "yfinance",
-        "last": 199.95,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -54.6,
-        "ret_1m_pct": -40.1,
-        "ret_3m_pct": -39.1,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "AMZN",
-      "mentions": 322,
+      "mentions": 323,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "AMZN",
-        "provider": "yfinance",
-        "last": 245.63,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 33,
-        "pct_off_6mo_high": -14.5,
-        "ret_1m_pct": -2.3,
-        "ret_3m_pct": -9.9,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "MRVL",
-      "mentions": 313,
+      "mentions": 315,
       "first_seen": "2025-08-25",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "MRVL",
-        "provider": "yfinance",
-        "last": 171.41,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 8,
-        "pct_off_6mo_high": -48.0,
-        "ret_1m_pct": -36.8,
-        "ret_3m_pct": -18.8,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -235,16 +127,7 @@
       "first_seen": "2025-09-09",
       "last_seen": "2026-10-23",
       "price": {
-        "ticker": "TSM",
-        "provider": "yfinance",
-        "last": 398.63,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 23,
-        "pct_off_6mo_high": -18.2,
-        "ret_1m_pct": -17.9,
-        "ret_3m_pct": -3.7,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -253,16 +136,7 @@
       "first_seen": "2025-09-25",
       "last_seen": "2026-10-28",
       "price": {
-        "ticker": "MU",
-        "provider": "yfinance",
-        "last": 833.59,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 35,
-        "pct_off_6mo_high": -33.6,
-        "ret_1m_pct": -21.7,
-        "ret_3m_pct": -6.7,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -271,16 +145,7 @@
       "first_seen": "2025-07-21",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "CRWV",
-        "provider": "yfinance",
-        "last": 50.15,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -63.7,
-        "ret_1m_pct": -42.6,
-        "ret_3m_pct": -44.2,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -289,52 +154,25 @@
       "first_seen": "2025-09-09",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "AVGO",
-        "provider": "yfinance",
-        "last": 322.23,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 2,
-        "pct_off_6mo_high": -34.9,
-        "ret_1m_pct": -11.1,
-        "ret_3m_pct": -23.0,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "CIFR",
-      "mentions": 216,
+      "mentions": 217,
       "first_seen": "2025-09-03",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "CIFR",
-        "provider": "yfinance",
-        "last": 6.86,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -77.2,
-        "ret_1m_pct": -55.7,
-        "ret_3m_pct": -63.3,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "SNDK",
-      "mentions": 204,
+      "mentions": 205,
       "first_seen": "2025-11-25",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "SNDK",
-        "provider": "yfinance",
-        "last": 1075.08,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 6,
-        "pct_off_6mo_high": -54.3,
-        "ret_1m_pct": -36.9,
-        "ret_3m_pct": -20.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -343,16 +181,7 @@
       "first_seen": "2025-07-02",
       "last_seen": "2026-10-22",
       "price": {
-        "ticker": "HOOD",
-        "provider": "yfinance",
-        "last": 83.84,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 20,
-        "pct_off_6mo_high": -33.8,
-        "ret_1m_pct": -26.5,
-        "ret_3m_pct": -9.7,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -361,16 +190,7 @@
       "first_seen": "2025-07-03",
       "last_seen": "2026-10-22",
       "price": {
-        "ticker": "RKLB",
-        "provider": "yfinance",
-        "last": 52.07,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 3,
-        "pct_off_6mo_high": -65.5,
-        "ret_1m_pct": -28.7,
-        "ret_3m_pct": -30.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -394,57 +214,39 @@
       }
     },
     {
+      "ticker": "POET",
+      "mentions": 179,
+      "first_seen": "2025-12-11",
+      "last_seen": "2026-11-03",
+      "price": {
+        "error": "cannot convert float NaN to integer"
+      }
+    },
+    {
+      "ticker": "AMD",
+      "mentions": 178,
+      "first_seen": "2025-09-11",
+      "last_seen": "2026-11-03",
+      "price": {
+        "error": "cannot convert float NaN to integer"
+      }
+    },
+    {
       "ticker": "INTC",
       "mentions": 178,
       "first_seen": "2025-09-23",
       "last_seen": "2026-10-13",
       "price": {
-        "ticker": "INTC",
-        "provider": "yfinance",
-        "last": 59.97,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -57.9,
-        "ret_1m_pct": -48.4,
-        "ret_3m_pct": -40.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
-      "ticker": "POET",
-      "mentions": 178,
-      "first_seen": "2025-12-11",
-      "last_seen": "2026-10-24",
+      "ticker": "JBL",
+      "mentions": 165,
+      "first_seen": "2025-12-01",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "POET",
-        "provider": "yfinance",
-        "last": 4.8,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -76.9,
-        "ret_1m_pct": -38.5,
-        "ret_3m_pct": -40.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
-      }
-    },
-    {
-      "ticker": "AMD",
-      "mentions": 177,
-      "first_seen": "2025-09-11",
-      "last_seen": "2026-10-24",
-      "price": {
-        "ticker": "AMD",
-        "provider": "yfinance",
-        "last": 466.84,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 39,
-        "pct_off_6mo_high": -29.1,
-        "ret_1m_pct": -26.1,
-        "ret_3m_pct": -3.2,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -453,34 +255,7 @@
       "first_seen": "2026-02-11",
       "last_seen": "2026-10-27",
       "price": {
-        "ticker": "TSEM",
-        "provider": "yfinance",
-        "last": 155.32,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 3,
-        "pct_off_6mo_high": -51.5,
-        "ret_1m_pct": -37.8,
-        "ret_3m_pct": -26.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
-      }
-    },
-    {
-      "ticker": "JBL",
-      "mentions": 164,
-      "first_seen": "2025-12-01",
-      "last_seen": "2026-10-25",
-      "price": {
-        "ticker": "JBL",
-        "provider": "yfinance",
-        "last": 266.35,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 4,
-        "pct_off_6mo_high": -37.9,
-        "ret_1m_pct": -11.5,
-        "ret_3m_pct": -21.3,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -489,16 +264,7 @@
       "first_seen": "2025-09-14",
       "last_seen": "2026-10-10",
       "price": {
-        "ticker": "RDDT",
-        "provider": "yfinance",
-        "last": 90.97,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -56.3,
-        "ret_1m_pct": -39.5,
-        "ret_3m_pct": -41.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -507,34 +273,16 @@
       "first_seen": "2025-09-10",
       "last_seen": "2026-10-12",
       "price": {
-        "ticker": "ORCL",
-        "provider": "yfinance",
-        "last": 119.22,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 3,
-        "pct_off_6mo_high": -52.4,
-        "ret_1m_pct": -16.3,
-        "ret_3m_pct": -17.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
       "ticker": "AEHR",
-      "mentions": 139,
+      "mentions": 141,
       "first_seen": "2026-01-16",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "AEHR",
-        "provider": "yfinance",
-        "last": 51.47,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -65.1,
-        "ret_1m_pct": -50.7,
-        "ret_3m_pct": -47.9,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -543,16 +291,7 @@
       "first_seen": "2025-07-07",
       "last_seen": "2026-05-30",
       "price": {
-        "ticker": "HIMS",
-        "provider": "yfinance",
-        "last": 25.24,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 21,
-        "pct_off_6mo_high": -35.4,
-        "ret_1m_pct": -14.9,
-        "ret_3m_pct": -20.3,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -561,16 +300,7 @@
       "first_seen": "2025-08-25",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "TSLA",
-        "provider": "yfinance",
-        "last": 403.82,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 68,
-        "pct_off_6mo_high": -10.9,
-        "ret_1m_pct": 6.6,
-        "ret_3m_pct": 25.6,
-        "above_sma50": true,
-        "stage": "early-uptrend"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -579,16 +309,7 @@
       "first_seen": "2025-09-03",
       "last_seen": "2026-09-24",
       "price": {
-        "ticker": "WULF",
-        "provider": "yfinance",
-        "last": 10.94,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 3,
-        "pct_off_6mo_high": -63.3,
-        "ret_1m_pct": -26.0,
-        "ret_3m_pct": -39.5,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -597,16 +318,7 @@
       "first_seen": "2026-01-25",
       "last_seen": "2026-10-12",
       "price": {
-        "ticker": "EWY",
-        "provider": "yfinance",
-        "last": 151.62,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 11,
-        "pct_off_6mo_high": -31.4,
-        "ret_1m_pct": -20.8,
-        "ret_3m_pct": -10.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -615,16 +327,7 @@
       "first_seen": "2026-01-10",
       "last_seen": "2026-11-02",
       "price": {
-        "ticker": "MTSI",
-        "provider": "yfinance",
-        "last": 222.18,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -47.0,
-        "ret_1m_pct": -32.3,
-        "ret_3m_pct": -15.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -633,16 +336,7 @@
       "first_seen": "2025-07-03",
       "last_seen": "2026-06-04",
       "price": {
-        "ticker": "CRCL",
-        "provider": "yfinance",
-        "last": 72.08,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 17,
-        "pct_off_6mo_high": -48.5,
-        "ret_1m_pct": -13.5,
-        "ret_3m_pct": 13.9,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -651,16 +345,7 @@
       "first_seen": "2025-07-21",
       "last_seen": "2026-09-30",
       "price": {
-        "ticker": "ALAB",
-        "provider": "yfinance",
-        "last": 229.67,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 13,
-        "pct_off_6mo_high": -54.0,
-        "ret_1m_pct": -36.6,
-        "ret_3m_pct": -27.9,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -669,16 +354,7 @@
       "first_seen": "2025-09-09",
       "last_seen": "2026-10-20",
       "price": {
-        "ticker": "SMCI",
-        "provider": "yfinance",
-        "last": 30.44,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 25,
-        "pct_off_6mo_high": -40.8,
-        "ret_1m_pct": -29.5,
-        "ret_3m_pct": 0.4,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -693,20 +369,11 @@
     },
     {
       "ticker": "CRDO",
-      "mentions": 85,
+      "mentions": 86,
       "first_seen": "2025-07-21",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "price": {
-        "ticker": "CRDO",
-        "provider": "yfinance",
-        "last": 140.02,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -54.6,
-        "ret_1m_pct": -34.1,
-        "ret_3m_pct": -37.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -715,16 +382,7 @@
       "first_seen": "2026-02-17",
       "last_seen": "2026-10-24",
       "price": {
-        "ticker": "AAPL",
-        "provider": "yfinance",
-        "last": 338.32,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 83,
-        "pct_off_6mo_high": -3.8,
-        "ret_1m_pct": 1.6,
-        "ret_3m_pct": 8.8,
-        "above_sma50": true,
-        "stage": "early-uptrend"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -733,16 +391,7 @@
       "first_seen": "2025-08-23",
       "last_seen": "2026-10-08",
       "price": {
-        "ticker": "SNAP",
-        "provider": "yfinance",
-        "last": 5.45,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 46,
-        "pct_off_6mo_high": -20.4,
-        "ret_1m_pct": -2.9,
-        "ret_3m_pct": 2.3,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -751,16 +400,7 @@
       "first_seen": "2026-01-19",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "GFS",
-        "provider": "yfinance",
-        "last": 41.82,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 2,
-        "pct_off_6mo_high": -54.8,
-        "ret_1m_pct": -13.9,
-        "ret_3m_pct": -15.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -769,16 +409,7 @@
       "first_seen": "2026-01-09",
       "last_seen": "2026-05-13",
       "price": {
-        "ticker": "VLN",
-        "provider": "yfinance",
-        "last": 1.48,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 3,
-        "pct_off_6mo_high": -60.1,
-        "ret_1m_pct": -21.3,
-        "ret_3m_pct": -12.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -787,16 +418,7 @@
       "first_seen": "2025-11-05",
       "last_seen": "2026-05-23",
       "price": {
-        "ticker": "OSS",
-        "provider": "yfinance",
-        "last": 4.83,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -76.9,
-        "ret_1m_pct": -42.0,
-        "ret_3m_pct": -63.2,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -805,16 +427,7 @@
       "first_seen": "2025-07-28",
       "last_seen": "2026-10-12",
       "price": {
-        "ticker": "PLTR",
-        "provider": "yfinance",
-        "last": 178.34,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 68,
-        "pct_off_6mo_high": -16.2,
-        "ret_1m_pct": -5.8,
-        "ret_3m_pct": 12.6,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -823,16 +436,7 @@
       "first_seen": "2026-01-14",
       "last_seen": "2026-05-25",
       "price": {
-        "ticker": "LPTH",
-        "provider": "yfinance",
-        "last": 7.63,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 7,
-        "pct_off_6mo_high": -59.7,
-        "ret_1m_pct": -29.4,
-        "ret_3m_pct": -36.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -841,16 +445,7 @@
       "first_seen": "2026-01-20",
       "last_seen": "2026-08-18",
       "price": {
-        "ticker": "VPG",
-        "provider": "yfinance",
-        "last": 51.99,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -65.7,
-        "ret_1m_pct": -33.4,
-        "ret_3m_pct": -29.3,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -859,16 +454,7 @@
       "first_seen": "2026-01-22",
       "last_seen": "2026-09-24",
       "price": {
-        "ticker": "ARM",
-        "provider": "yfinance",
-        "last": 196.79,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -56.5,
-        "ret_1m_pct": -35.0,
-        "ret_3m_pct": -28.3,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -887,16 +473,7 @@
       "first_seen": "2025-09-16",
       "last_seen": "2026-08-30",
       "price": {
-        "ticker": "IBKR",
-        "provider": "yfinance",
-        "last": 74.83,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 1,
-        "pct_off_6mo_high": -24.2,
-        "ret_1m_pct": -16.0,
-        "ret_3m_pct": -15.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -915,16 +492,7 @@
       "first_seen": "2025-10-04",
       "last_seen": "2026-10-27",
       "price": {
-        "ticker": "FLNC",
-        "provider": "yfinance",
-        "last": 5.21,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -82.6,
-        "ret_1m_pct": -31.9,
-        "ret_3m_pct": -63.4,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -933,16 +501,7 @@
       "first_seen": "2025-09-27",
       "last_seen": "2026-10-25",
       "price": {
-        "ticker": "SLNH",
-        "provider": "yfinance",
-        "last": 0.58,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 3,
-        "pct_off_6mo_high": -75.4,
-        "ret_1m_pct": -43.7,
-        "ret_3m_pct": -50.8,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -951,16 +510,7 @@
       "first_seen": "2025-09-14",
       "last_seen": "2026-03-07",
       "price": {
-        "ticker": "BMNR",
-        "provider": "yfinance",
-        "last": 19.54,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 42,
-        "pct_off_6mo_high": -32.3,
-        "ret_1m_pct": -27.1,
-        "ret_3m_pct": 6.0,
-        "above_sma50": false,
-        "stage": "range/neutral"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -969,16 +519,16 @@
       "first_seen": "2025-08-23",
       "last_seen": "2026-03-26",
       "price": {
-        "ticker": "ETOR",
-        "provider": "yfinance",
-        "last": 22.57,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 2,
-        "pct_off_6mo_high": -47.9,
-        "ret_1m_pct": -12.1,
-        "ret_3m_pct": -37.5,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
+      }
+    },
+    {
+      "ticker": "FN",
+      "mentions": 53,
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-11-03",
+      "price": {
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -987,34 +537,7 @@
       "first_seen": "2026-02-19",
       "last_seen": "2026-05-22",
       "price": {
-        "ticker": "XLU",
-        "provider": "yfinance",
-        "last": 43.67,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 60,
-        "pct_off_6mo_high": -6.7,
-        "ret_1m_pct": 9.3,
-        "ret_3m_pct": 0.0,
-        "above_sma50": true,
-        "stage": "range/neutral"
-      }
-    },
-    {
-      "ticker": "FN",
-      "mentions": 52,
-      "first_seen": "2026-02-25",
-      "last_seen": "2026-09-30",
-      "price": {
-        "ticker": "FN",
-        "provider": "yfinance",
-        "last": 314.7,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 2,
-        "pct_off_6mo_high": -58.0,
-        "ret_1m_pct": -30.7,
-        "ret_3m_pct": -39.7,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     },
     {
@@ -1023,16 +546,7 @@
       "first_seen": "2025-09-08",
       "last_seen": "2026-10-27",
       "price": {
-        "ticker": "WYFI",
-        "provider": "yfinance",
-        "last": 9.26,
-        "last_date": "2026-11-02",
-        "range_pos_6mo_pct": 0,
-        "pct_off_6mo_high": -80.2,
-        "ret_1m_pct": -47.0,
-        "ret_3m_pct": -64.5,
-        "above_sma50": false,
-        "stage": "downtrend/basing"
+        "error": "cannot convert float NaN to integer"
       }
     }
   ]
