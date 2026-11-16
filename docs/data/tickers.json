@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:30:22Z",
+  "generated_at": "2026-11-16T01:34:41Z",
   "source": "yan-labs/serenity-aleabitoreddit (public tweet-mention archive)",
   "disclaimer": "Research/education only. Not financial advice. Not affiliated with Serenity/@aleabitoreddit.",
   "tickers": [
@@ -33,9 +33,9 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 655,
+      "mentions": 660,
       "first_seen": "2025-07-28",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "price": {
         "ticker": "NVDA",
         "provider": "yfinance",
@@ -69,9 +69,9 @@
     },
     {
       "ticker": "AXTI",
-      "mentions": 586,
+      "mentions": 587,
       "first_seen": "2025-12-22",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "price": {
         "ticker": "AXTI",
         "provider": "yfinance",
@@ -375,9 +375,9 @@
     },
     {
       "ticker": "SOI",
-      "mentions": 187,
+      "mentions": 188,
       "first_seen": "2026-03-11",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-11-15",
       "price": {
         "ticker": "SOI",
         "error": "no data from EODHD or yfinance (delisted, renamed, or wrong ticker/exchange suffix; set EODHD_API_KEY for non-US names)"
